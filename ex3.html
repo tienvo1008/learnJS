@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset=utf-8 />
+        <title>Chèn thêm hàng vào bảng</title>
+    </head>
+
+    <body>
+        <table id="infList" border="1">
+            <thead>
+                <td>Họ</td>
+                <td>Tên</td>
+                <td>Tuổi</td>
+                <td>Highlight</td>
+                <td>Xóa hàng</td>
+            </thead>
+            <tbody id="dataList">
+                
+            </tbody>
+        </table>
+        <br>
+        <form id="form1">
+            Họ: <input type="text" id="fname"><br>
+            Tên: <input type="text" id="lname"><br>
+            Tuổi: <input type="text" id="yearold"><br>
+            <input type="button" id="btnSubmit" onclick="addInfo()" value="Insert row">
+        </form>
+        <script src="ex3.js"></script>
+    </body>
+
+</html>
